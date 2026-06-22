@@ -98,7 +98,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/70 border-b border-border/60">
         <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <button onClick={() => scrollTo('hero')} className="font-display text-2xl font-semibold tracking-tight">
-            Имя Фамилия<span className="text-primary">.</span>
+            Ирина Никишина<span className="text-primary">.</span>
           </button>
           <div className="hidden md:flex items-center gap-8">
             {NAV.map((n) => (
